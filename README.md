@@ -1,5 +1,6 @@
-## TwistOpen 
-TwistOpen Work and Services Webpage
+
+## TwistOpen (Work and Services Webpage) Clone:
+   "I 've developed only Work and Services Webpage as part of my assignment "
 
 ![work1](https://user-images.githubusercontent.com/59798427/97795308-ba049a00-1c2a-11eb-92ce-0cf38556ec47.png)
 
