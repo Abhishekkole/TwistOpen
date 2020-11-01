@@ -1,0 +1,1475 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 10px 3px;
+    background-color:black;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+    transition: top 0.3s;
+}
+#main .image-1{
+    width: 135px;
+    margin-left: 35px;
+}
+.toggle{
+    display: none;
+}
+
+img{
+    text-decoration: none;
+}
+/*Scroll*/
+.nav-up {
+    top: -40px;
+}
+
+
+/*Nav Links*/
+
+#mylinks  a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:grey;
+    padding: 22px;
+    
+}
+#mylinks .w-current:visited{
+    color: deeppink;
+}
+.content{
+    position: relative;
+    padding: 0;
+    width: 325px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+}
+
+#intro{
+    margin-left: -10px;
+    width: 1520px;
+    height: 95vh;
+    background:black;
+}
+.name img{
+    width: 1200px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 250px;
+    
+}
+.heading1{
+    margin-top: -252px;
+    margin-left: 490px;
+    font-size: 190px;
+    color: whitesmoke;
+}
+
+/*portfolio  Section*/
+#portfolio{
+    display: flex;
+}
+
+/*Str8bat section*/
+#portfolio img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+.desc .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+/* HOOVER CODE FOR STR8BAT 
+.container{
+    position: relative;
+    padding: 0;
+    width: 325px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+.container:hover .text{
+    
+    
+    position: absolute;
+    margin-top: -40px;
+    bottom: 0;
+    margin-left: 45px;
+    max-width: 325px;
+    height: 328px;
+    width: 295px;
+    text-align: center;
+
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#3333FF;
+}
+  
+.container:hover .text{
+    opacity: 1;
+
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+*/
+
+
+/*MAYA*/
+#portfolio .container .desc1 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width: 300px;
+    height: 325px;
+}
+.desc1 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc1 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc1 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+
+
+/*pitch website*/
+.desc2 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc2 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc2 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+
+
+/*QUOTE */
+.container .desc3{
+    width:100px;
+}
+.container .desc3 img{
+    width: auto;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 200px;
+    
+}
+
+/*ROW2*/
+#row2{
+    display:flex;
+    padding: 1rem;
+    
+}
+
+#row2 .container .desc4{
+    width: auto;
+    text-align: center;
+}
+
+/*What Makes*/
+#row2 .container .desc4 img{
+    margin-right: 290px;
+    margin-top: 45px;
+    margin-left: 95px;
+    width:390px;
+    height: 325px;
+  
+}
+.desc4 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc4 .info{
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 0px;
+}
+.desc4 .app{
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    margin-left: 65px;
+}
+.desc4 .app:hover{
+    color: black;
+}
+
+
+
+/*scoreboard*/
+#row2 .container .desc5 img{
+    margin-top: 45px;
+    margin-left: 0px;
+    width:300px;
+    height: 325px;
+}
+
+
+.desc5 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc5 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.desc5 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 5px;
+}
+
+/*MarksetsN*/
+#row2 .container .desc6 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    width:300px;
+    height: 325px;
+}
+
+
+.desc6 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc6 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc6 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+
+/*Row-3*/
+#row3{
+    display: flex;
+}
+
+/*economy  section*/
+#row3 .container .desc7 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+.desc7 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc7 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc7 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*jouleiq  section*/
+#row3 .container .desc8 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+.desc8 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc8 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+
+.desc8 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*immersionUX  section*/
+#row3 .container .desc9 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+
+.desc9 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc9 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+
+.desc9 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*ferroli  section*/
+#row3 .container .desc10 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+
+.desc10 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc10 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+
+.desc10 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*Row-4*/
+#row4{
+    display: flex;
+}
+
+/*economy  section*/
+#row4 .container .desc11 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    width:300px;
+    height: 325px;
+}
+.desc11 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc11 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc11  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*Enterprise APP UX*/
+#row4 .container .desc12 img{
+    margin-right: 290px;
+    margin-top: 45px;
+    margin-left: 155px;
+    width:290px;
+    height: 325px;
+  
+}
+.desc12 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc12 .info{
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 85px;
+}
+.desc12 .app{
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    margin-left: 289px;
+}
+.desc12 .app:hover{
+    color: black;
+}
+
+
+/*Fertility*/
+#row4 .container .desc13 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+.desc13 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc13 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc13  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*Row-5*/
+#row5{
+    display: flex;
+}
+
+/*RESEARCH  section*/
+#row5 .container .desc14 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:500px;
+    height: 325px;
+}
+.desc14 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc14 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc14  .app{
+    color: deeppink;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 315px;
+}
+.desc14 .app:hover{
+    color: black;
+}
+
+
+/*Koinearth section*/
+#row5 .container .desc15 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+.desc15 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc15 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc15  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*HealthCare*/
+#row5 .container .desc16 img{
+    margin-top: 45px;
+    margin-left: 125px;
+    max-width:300px;
+    height: 325px;
+}
+.desc16 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc16 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 125px;
+}
+.desc16  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 125px;
+}
+
+/*Row-6*/
+#row6{
+    display: flex;
+}
+
+/*promo  section*/
+#row6 .container .desc17 img{
+    margin-top: 45px;
+    margin-left: 65px;
+    max-width:300px;
+    height: 325px;
+}
+.desc17 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc17 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+}
+.desc17  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 65px;
+}
+
+/*Email section*/
+#row6{
+    display: flex;
+}
+
+#row6 .container .desc18 .head4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 110px;
+    margin-left: 65px;
+    width:500px;
+    height: 125px;
+}
+#row6 .w-input::placeholder{
+    font-family: sans-serif;
+    color:grey;
+    font-size: 33px;
+}
+#row6 .w-button{
+    background-color: transparent;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    border: 0px;
+    color: deeppink;
+    font-size: 35px;
+}
+
+
+/* Communication*/
+#row6 .container .desc19 img{
+    margin-top: 45px;
+    margin-left: 125px;
+    max-width:300px;
+    height: 325px;
+}
+.desc19 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc19 .info{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 125px;
+}
+.desc19  .app{
+    color: deeppink;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 230px;
+}
+.desc19 .app:hover{
+    color: black;
+}
+
+/*Footer*/
+#rowf{
+    margin-left: -10px;
+}
+footer #rowf .container .desc20
+{
+    color: white;
+    background-color: black;
+    height:35vh ;
+    width: 1510px;   
+}
+footer .container .image-7{
+    text-align: center;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+footer .media1{
+    margin-left: 20px;
+}
+footer .media2{
+    margin-top: 5px;
+}
+#rowf .social-links,.media,.media1,.media2{
+    display: flex;
+    padding:20px;
+}
+footer .div1{
+    color:white;
+}
+/*Links*/
+#rowf  .w-home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -100px;
+    margin-left: 300px;
+    height: 50px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+
+#rowf .w-work{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -100px;
+    margin-left: 40px;
+    height: 50px;
+    display: flex;
+    color:deeppink;
+    padding: 2rem;
+}
+
+#rowf  .w-service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+#rowf  .w-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -20px;
+    margin-left: -625px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+#rowf  .w-contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -20px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+
+/*Flex or Responsive*/
+@media(max-width:900px){
+    #content{
+        max-width: 100px;
+    }
+    .toggle {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        position: -1rem;
+    }
+    .sidebar {
+        display: none;
+        width: 20%;
+    }
+    .fa-bars {
+        color:whitesmoke; 
+    }
+    .active{
+        display: flex;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    #main{
+        max-width: 95%;
+    }
+    .toggle{
+        margin-left: -30px;
+        display: flex;
+    }
+}
+
+@media (max-width: 630px) {
+    #main{
+        max-width: 40%;
+    }
+    
+    #portfolio{
+        display: flex;
+    }
+    
+    /*Str8bat section*/
+    #portfolio img{
+        margin-top: 45px;
+        margin-left: 25px;
+        width:200px;
+        height: 225px;
+    }
+    .desc .info,a{
+        color: black;
+        font-size: larger;
+        text-decoration: none;
+    }
+    
+    .desc .info{
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .desc .app{
+        font-family: "Courier New", Courier, monospace;
+        margin-top: -33px;
+        margin-left: 25px;
+    }
+    /*Maya*/
+    #portfolio .container .desc1 img{
+        margin-top: 45px;
+        margin-left: 25px;
+        max-width: 300px;
+        height: 225px;
+    }
+    .desc1 .info,a{
+        color: black;
+        font-size: larger;
+        text-decoration: none;
+    }
+    
+    .desc1 .info{
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .desc1 .app{
+        font-family: "Courier New", Courier, monospace;
+        margin-top: -33px;
+        margin-left: 25px;
+    }
+    /*Pitch*/
+    #portfolio .container .desc2 img{
+        margin-top: 395px;
+        margin-left: -250px;
+        max-width: 300px;
+        height: 225px;
+    }
+    .desc2 .info,a{
+        color: black;
+        font-size: larger;
+        text-decoration: none;
+    }
+    
+    .desc2 .info{
+        font-family: sans-serif;
+        font-size: 20px;
+        margin-left: -250px;
+    }
+    .desc2 .app{
+        font-family: "Courier New", Courier, monospace;
+        margin-top: -33px;
+        margin-left: -250px;
+    }
+    /*Quote*/
+    .container .desc3 img{
+        display: none;
+    }
+
+   
+    /*ROW2*/
+#row2{
+    display:flex;
+    padding: 1rem;
+    
+}
+
+
+/*What Makes*/
+#row2 .container .desc4 img{
+    margin-right: 290px;
+    margin-top: 45px;
+    margin-left: 25px;
+    width:390px;
+    height: 225px;
+  
+}
+.desc4 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc4 .info{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: -205px;
+}
+.desc4 .app{
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    margin-left: -175px;
+}
+.desc4 .app:hover{
+    color: black;
+}
+
+
+
+/*scoreboard*/
+#row2 .container .desc5 img{
+    margin-top: 375px;
+    margin-left: -700px;
+    width:200px;
+    height: 195px;
+}
+
+
+.desc5 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc5 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -700px;
+}
+.desc5 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -700px;
+}
+
+/*MarksetsN*/
+#row2 .container .desc6 img{
+    margin-top: 375px;
+    margin-left: -475px;
+    width:200px;
+    height: 195px;
+}
+
+
+.desc6 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc6 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -475px;
+}
+.desc6 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -475px;
+}
+/*Row-3*/
+#row3{
+    display: flex;
+}
+
+/*economy  section*/
+#row3 .container .desc7 img{
+    margin-top: 45px;
+    margin-left: 5px;
+    max-width:200px;
+    height: 195px;
+}
+.desc7 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc7 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.desc7 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 5px;
+}
+
+/*jouleiq  section*/
+#row3 .container .desc8 img{
+    margin-top: 45px;
+    margin-left: 45px;
+    max-width:200px;
+    height: 190px;
+}
+.desc8 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc8 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 45px;
+}
+
+.desc8 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 45px;
+}
+
+/*immersionUX  section*/
+#row3 .container .desc9 img{
+    margin-top: 355px;
+    margin-left: -425px;
+    max-width:200px;
+    height: 195px;
+}
+
+.desc9 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc9 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -425px;
+}
+
+.desc9 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -425px;
+}
+
+/*ferroli  section*/
+#row3 .container .desc10 img{
+    margin-top: 355px;
+    margin-left: -185px;
+    max-width:200px;
+    height: 195px;
+}
+
+.desc10 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc10 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -185px;
+}
+
+.desc10 .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -185px;
+}
+
+/*Row-4*/
+#row4{
+    display: flex;
+}
+
+/*economy  section*/
+#row4 .container .desc11 img{
+    margin-top: 45px;
+    margin-left: 25px;
+    width:150px;
+    height: 175px;
+}
+.desc11 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc11 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.desc11  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 25px;
+}
+
+/*Enterprise APP UX*/
+#row4 .container .desc12 img{
+    margin-right: 290px;
+    margin-top: 325px;
+    margin-left: -45px;
+    width:190px;
+    height: 175px;
+  
+}
+.desc12 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc12 .info{
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: -105px;
+}
+.desc12 .app{
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+.desc12 .app:hover{
+    color: black;
+}
+
+
+/*Fertility*/
+#row4 .container .desc13 img{
+    margin-top: 625px;
+    margin-left: -600px;
+    max-width:200px;
+    height: 195px;
+}
+.desc13 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc13 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -600px;
+}
+.desc13  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -600px;
+}
+
+/*Row-5*/
+#row5{
+    display: flex;
+}
+
+/*RESEARCH  section*/
+#row5 .container .desc14 img{
+    margin-top: 45px;
+    margin-left: 45px;
+    max-width:300px;
+    height: 185px;
+}
+.desc14 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc14 .info{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 45px;
+}
+.desc14  .app{
+    color: deeppink;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 135px;
+}
+.desc14 .app:hover{
+    color: black;
+}
+
+
+/*Koinearth section*/
+#row5 .container .desc15 img{
+    margin-top: 350px;
+    margin-left: -325px;
+    max-width:200px;
+    height: 195px;
+}
+.desc15 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc15 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -325px;
+}
+.desc15  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -325px;
+}
+
+/*HealthCare*/
+#row5 .container .desc16 img{
+    margin-top: 350px;
+    margin-left: -85px;
+    max-width:200px;
+    height: 195px;
+}
+.desc16 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc16 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: -85px;
+}
+.desc16  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -85px;
+}
+
+/*Row-6*/
+#row6{
+    display: flex;
+}
+
+/*promo  section*/
+#row6 .container .desc17 img{
+    margin-top: 45px;
+    margin-left: 25px;
+    max-width:200px;
+    height: 195px;
+}
+.desc17 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.desc17 .info{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.desc17  .app{
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: 25px;
+}
+
+/*Email section*/
+#row6{
+    display: flex;
+}
+
+#row6 .container .desc18 .head4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 360px;
+    margin-left: -205px;
+    width:500px;
+    height: 125px;
+}
+#row6 .w-input{
+    margin-top: -85px;
+    margin-left: -225px;
+    width: 5px;
+    height: 10px;
+}
+#row6 .w-input::placeholder{
+   
+    font-family: sans-serif;
+    color:grey;
+    font-size: 13px;
+}
+#row6 .w-button{
+    margin-left: -205px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    border: 0px;
+    color: deeppink;
+    font-size: 15px;
+}
+
+
+/* Communication*/
+#row6 .container .desc19 img{
+    margin-top: 625px;
+    margin-left: -425px;
+    max-width:300px;
+    height: 325px;
+}
+.desc19 .info,a{
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+.desc19 .info{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: -385px;
+}
+.desc19  .app{
+    color: deeppink;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -33px;
+    margin-left: -340px;
+}
+.desc19 .app:hover{
+    color: black;
+}
+
+
+/*Footer*/
+#rowf{
+    margin-left: -10px;
+}
+footer #rowf .container .desc20
+{
+    color: white;
+    background-color: black;
+    height:50vh ;
+    width: 600px;   
+}
+footer .container .image-7{
+    text-align: center;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+footer .media1{
+    margin-left: -0px;
+}
+footer .media2{
+    margin-top: 5px;
+}
+#rowf .social-links,.media,.media1,.media2{
+    display: flex;
+    padding:10px;
+}
+footer .div1{
+    color:white;
+}
+/*Links*/
+#rowf  .w-home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: -250px;
+    height: 0px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+
+#rowf .w-work{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: -45px;
+    height: 50px;
+    display: flex;
+    color:deeppink;
+    padding: 2rem;
+}
+
+#rowf  .w-service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: 50px;
+    margin-top: 75px;
+    margin-left: -40px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+#rowf  .w-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: -45px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+#rowf  .w-contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: -45px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+    #intro{
+        height:40vh;
+    }
+    .name img{
+        margin-top: 95px;
+        width: 400px;
+    }
+    .heading1{
+        margin-top: -80px;
+       font-size: 55px;
+        margin-left: 180px;
+    }
+    #content {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    .toggle a.icone {
+        background:black;
+        display: block;
+        margin-left: -60px;
+        right: 0;
+        top: 40;
+    }
+    #row1 .desc,.desc1{
+        width: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

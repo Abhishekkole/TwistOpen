@@ -1,0 +1,1555 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 10px 3px;
+    background-color:black;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+}
+
+.toggle{
+    display: none;
+}
+
+.logo{
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+/*Nav Links*/
+
+#mylinks  a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:grey;
+    padding: 22px;
+    
+}
+#mylinks .w-current:visited{
+    color: deeppink;
+}
+.content{
+    position: relative;
+    padding: 0;
+    width: 325px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+}
+
+#intro{
+    margin-left: -10px;
+    width: 1520px;
+    height: 100vh;
+    background:black;
+}
+.name img{
+    width: 1200px;
+    margin-top: 200px;
+    margin-left: 0px;
+    margin-right: 250px;
+    
+}
+.heading1{
+    margin-top: -232px;
+    margin-left: 520px;
+    font-size: 200px;
+    color: whitesmoke;
+}
+
+/*Sliders
+#car{
+    margin-left: -10px;
+    margin-top: -110px;
+    background-color: black;
+    width:  1520px;
+}
+#car .w-slider .slide1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 60px;
+    margin-top: 0px;
+    background-color:blue;
+    width:500px;
+    height: 390px;
+    margin-left:600px;
+}
+#car .w-slider .servic1{
+    margin-top: -80px;
+    margin-left: 30px;
+}
+#car .w-slider .slide2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 80px;
+}
+*/
+/*Head*/
+#business{
+    width: 1560px;
+    margin-left: -49px;
+    background-color: black;
+}
+#business h2{
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 90px;
+    color: white;
+    background-color: black;
+}
+
+/*Div1*/
+#offerings{
+    display: flex;
+    margin-top: -182px;
+    margin-right:-8px;
+    margin-left: -10px;
+    background-color: black;
+    height:140vh;
+}
+
+#offerings .div1 img{
+    margin-top: 40px;
+    width: 400px;
+}
+#offerings .div1{
+    margin-left: 80px;
+    margin-top: 220px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#offerings .div1 .yellow{
+    margin-top: -10px;
+    margin-left: 28px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:orange;
+}
+#offerings .div1 p{
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 18px ;
+    margin-left:28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Div2*/
+#offerings .div2 img{
+    margin-left: 20px;
+    width: 400px;
+}
+#offerings .div2{
+    margin-left: 60px;
+    margin-top: 220px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#offerings .div2 .green{
+    font-size: 35px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    color:green;
+}
+#offerings .div2 p{
+    margin-right: 20px;
+    font-size: 16px ;
+    margin-left:22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Div3*/
+#offerings .div3 img{
+    margin-top: 0px;
+    width: 400px;
+}
+#offerings .div3{
+    margin-left: 80px;
+    margin-top: 220px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#offerings .div3 .orange{
+    margin-top: -10px;
+    margin-left: 28px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:orange;
+}
+#offerings .div3 p{
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 19px ;
+    margin-left:28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Row-2*/
+#row2{
+    display: flex;
+    margin-top: -350px;
+    margin-right:-8px;
+    margin-left: -10px;
+    background-color: black;
+    height:140vh;
+}
+/*Div-4*/
+#row2 .div4 img{
+    margin-top: -70px;
+    margin-left: 20px;
+    width: 400px;
+}
+#row2 .div4{
+    margin-left: 80px;
+    margin-top: 220px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row2 .div4 h3{
+    font-size: 35px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    color:lightsteelblue;
+}
+#row2 .div4 p{
+    margin-right: 20px;
+    font-size: 18px ;
+    margin-left:22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Div-5*/
+
+#row2 .div5 img{
+    margin-top: 40px;
+    width: 400px;
+}
+#row2 .div5{
+    margin-left: 60px;
+    margin-top: 220px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row2 .div5 .orange{
+    margin-top: -60px;
+    margin-left: 28px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:orange;
+}
+#row2 .div5 p{
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 18px ;
+    margin-left:28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Div-6*/
+#row2 .div6 img{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 400px;
+}
+#row2 .div6{
+    margin-left: 80px;
+    margin-top: 220px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row2 .div6 h3{
+    font-size: 35px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    color:green;
+}
+#row2 .div6 p{
+    margin-right: 20px;
+    font-size: 18px ;
+    margin-left:22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Row3*/
+#row3{
+    display: flex;
+    margin-top: -50px;
+    margin-right:-8px;
+    margin-left: -10px;
+    background-color: black;
+    height:90vh;
+}
+/*Div-7*/
+
+/*Div-4*/
+#row3 .div7 img{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 350px;
+}
+#row3 .div7{
+    margin-left: 80px;
+    margin-top: -80px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row3 .div7 h3{
+    font-size: 35px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    color:green;
+}
+#row3 .div7 p{
+    margin-right: 60px;
+    font-size: 18px ;
+    margin-left:22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Div-8*/
+#row3 .div8 img{
+    margin-top: 40px;
+    width: 400px;
+}
+#row3 .div8{
+    margin-left: 60px;
+    margin-top: -80px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row3 .div8 h3{
+    margin-top: -0px;
+    margin-left: 28px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:lightskyblue;
+}
+#row3 .div8 p{
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 18px ;
+    margin-left:28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Div-9*/
+#row3 .div9 img{
+    
+    margin-top: 0px;
+    width: 400px;
+}
+#row3 .div9 h3{
+    margin-top: -20px;
+    margin-left: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color:white;
+}
+#row3 .div9{
+    border-style:dotted;
+    color: white;
+    margin-left: 80px;
+    margin-top: -80px;
+    background-color:black;
+    width: 420px;
+    height: 620px;
+}
+#row3 .w-button{
+    padding: 30px;
+    border-style: groove;
+    background-color: transparent;
+    color: whitesmoke;
+    margin-top: 90px;
+    font-size: 40px;
+    margin-left: 125px;
+    text-decoration: none;
+}
+
+
+/*Row-4*/
+#row4{
+    display: flex;
+    margin-top: -50px;
+    margin-right:-8px;
+    margin-left: -10px;
+    background-color: black;
+    height:90vh;
+}
+
+/*Div-10*/
+#row4 .div10 img{
+    margin-top: 0px;
+    width: 420px;
+}
+#row4 .div10{
+    margin-left: 80px;
+    margin-top: -30px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row4 .div10 h3{
+    margin-top: -20px;
+    margin-left: 28px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:green;
+}
+#row4 .div10 p{
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 18px ;
+    margin-left:28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Div-11*/
+#row4 .div11 img{
+    margin-top: 0px;
+    width: 420px;
+}
+#row4 .div11{
+    margin-left: 60px;
+    margin-top: -30px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row4 .div11 h3{
+    margin-top: -20px;
+    margin-left: 28px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:orange;
+}
+#row4 .div11 p{
+    margin-right: 20px;
+    margin-top: -20px;
+    font-size: 17px ;
+    margin-left:28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Div-12*/
+#row4 .div12 img{
+    margin-top: -60px;
+    margin-left: 40px;
+    width: 380px;
+}
+#row4 .div12{
+    margin-left: 80px;
+    margin-top: -30px;
+    background-color: whitesmoke;
+    width: 420px;
+    height: 620px;
+}
+#row4 .div12 h3{
+    font-size: 35px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    color:orange;
+}
+#row4 .div12 p{
+    margin-right: 20px;
+    font-size: 18px ;
+    margin-left:22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Capabilities*/
+/*row1*/
+#cap{
+    margin-top: -80px;
+    margin-left: -10px;
+    display:flex;
+    background-color: black;
+    width: 1520px;
+}
+#cap .one{
+    color: white;
+}
+#cap .p1{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#cap .image-6{
+    margin-top: -65px;
+    margin-left: 420px;
+}
+#cap .p2{
+    margin-top: -83px;
+    margin-left: 480px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#cap .image-8{
+    margin-top: -65px;
+    margin-left: 890px;
+}
+#cap .p3{
+    margin-top: -83px;
+    margin-left: 970px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+/*Row-2*/
+#cap .p4{
+    margin-top: 80px;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#cap .image-7{
+    margin-top: -65px;
+    margin-left: 460px;
+}
+#cap .p5{
+    margin-top: -83px;
+    margin-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#cap .image-9{
+    margin-top: -65px;
+    margin-left: 770px;
+}
+#cap .p6{
+    margin-top: -83px;
+    margin-left: 820px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#cap .image-10{
+    margin-top: -65px;
+    margin-left: 1100px;
+}
+#cap .p7{
+    margin-top: -83px;
+    margin-left: 1150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#cap .image-11{
+    margin-top: -65px;
+    margin-left: 430px;
+}
+#cap .image-12{
+    margin-top: -65px;
+    margin-left: 905px;
+}
+/*Capa*/
+#capa{
+    margin-top: -60px;
+    margin-left: -10px;
+    display:flex;
+    background-color: black;
+    width: 1520px;
+    height: 30vh;
+}
+#capa .one{
+    color: white;
+}
+#capa .p8{
+    margin-top: 65px;
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#capa .image-13{
+    margin-top: -65px;
+    margin-left: 450px;
+}
+#capa  .p9{
+    margin-top: -85px;
+    margin-left: 480px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#capa .image-14{
+    margin-top: -65px;
+    margin-left: 790px;
+}
+#capa .p10{
+    margin-top: -85px;
+    margin-left: 820px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#capa .image-15{
+    margin-top: -65px;
+    margin-left: 1090px;
+}
+#capa .p11{
+    margin-top: -85px;
+    margin-left: 1120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+/*Clients head*/
+#businesss{
+    width: 1560px;
+    margin-left: -49px;
+    
+}
+#businesss h2{
+    margin-left: 100px;
+    margin-top: 120px;
+    font-size: 60px;
+    color:black;   
+}
+
+/*Clients*/
+
+#comp{
+    display: flex;
+    height: 30vh;
+}
+#comp .fin h3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 140px;
+}
+#comp .fin .axis{
+    margin-top: -100px;
+    width: 200px;
+    margin-left: 80px;
+}
+#comp .fin .standard{
+    margin-top: -100px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp .fin .max{
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp1{
+    display: flex;
+    height: 30vh;
+}
+#comp1 .fin2 .absa{
+    margin-top:30px;
+    width:200px;
+    margin-left:80px;
+}
+#comp1 .crayon{
+    margin-top:30px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp1 .ndb{
+    margin-top:30px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp2 .fin3 .cons{
+    margin-top: -400px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1000px;
+}
+#comp2 .fin3 .google,.manipal{
+    margin-left: 800px;
+    width: 200px;
+    margin-top: 30px;
+}
+#comp2 .ajio,.oxford{
+    width: 200px;
+}
+#comp2 .fin3 .swoo,.bradio{
+    width: 200px;
+    margin-left:1200px;
+    margin-top: -110px;
+}
+#comp2 .swiggy{
+    margin-left: 800px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+/*Social impact*/
+#comp3{
+    display: flex;
+    height: 60vh;
+}
+#comp3 .fin4 h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 140px;
+}
+
+
+#comp3 .fin4 .vill{
+    margin-top: -100px;
+    width: 200px;
+    margin-left: 80px;
+}
+#comp3 .fin4 .azim{
+    margin-top: -100px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp3 .fin4 .policy{
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp4{
+    display: flex;
+    height: 40vh;
+    margin-top: -55px;
+}
+#comp4 .fin5 .swasti{
+    margin-top:-90px;
+    width:200px;
+    margin-left:80px;
+}
+#comp4 .khpt{
+    margin-top:30px;
+    width: 200px;
+    margin-left: 0px;
+}
+#comp4 .gram{
+    margin-top:30px;
+    width: 200px;
+    margin-left: 0px;
+}
+
+
+/*Education*/
+
+#comp5 .fin6 .cons{
+    margin-top: -470px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1000px;
+}
+#comp5 .fin6 .manipal{
+    margin-left: 800px;
+    width: 200px;
+    margin-top: 30px;
+}
+#comp5 .oxford{
+    width: 200px;
+}
+#comp5 .fin6 .bradio{
+    width: 200px;
+    margin-left:1200px;
+    margin-top: -90px;
+}
+#comp6 .fin7 h3{
+    margin-left: 140px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 250px;
+}
+#comp6 img{
+    width: 200px;
+}
+#comp6 .star{
+    margin-left: 100px;
+}
+
+#comp6 .v-ch{
+    margin-left: -20px;
+}
+#comp6 .miss{
+    margin-left: -10px;
+}
+
+/*Telecom*/
+#tele .fin8 .pon{
+    margin-top:-165px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1000px;
+}
+#tele .fin8 .verizon{
+    width: 200px;
+    margin-left: 950px;
+}
+#tele .fin8 .globe{
+    width: 200px;
+}
+
+/*Footer*/
+
+#rowf{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+footer #rowf .container .desc20
+{
+    color: white;
+    background-color: black;
+    height:35vh ;
+    width: 1510px;   
+}
+footer .container .image-7{
+    text-align: center;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+footer .media1{
+    margin-left: 20px;
+}
+footer .media2{
+    margin-top: 5px;
+}
+#rowf .social-links,.media,.media1,.media2{
+    display: flex;
+    padding:20px;
+}
+footer .div1{
+    color:white;
+}
+/*Links*/
+#rowf  .w-home{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -100px;
+    margin-left: 300px;
+    height: 50px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+
+#rowf .w-work{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -100px;
+    margin-left: 40px;
+    height: 50px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+#rowf  .w-service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    height: 50px;
+    margin-top: -100px;
+    margin-left: 40px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+    color:deeppink;
+    text-decoration: none;
+}
+
+#rowf  .w-info{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -20px;
+    margin-left: -625px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+#rowf  .w-contact{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    margin-top: -20px;
+    display: flex;
+    color: white;
+    padding: 2rem;
+}
+
+/*Responsive*/
+@media(max-width:900px){
+    .toggle {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        position: -10rem;
+    }
+    .sidebar {
+        display: none;
+        width: 20%;
+    }
+    .fa-bars {
+        color:whitesmoke; 
+    }
+    .active{
+        display: flex;
+    }
+
+}
+
+
+@media(max-width:630px){
+    #intro{
+        height:40vh;
+    }
+    .name img{
+        margin-top: 95px;
+        width: 400px;
+    }
+    .heading1{
+        margin-top: -80px;
+       font-size: 55px;
+        margin-left: 180px;
+    }
+    #content {
+        flex-direction: row;
+        align-items: flex-start;
+      }
+    .toggle a.icone {
+        background:black;
+        display: block;
+        margin-left: -60px;
+        right: 0;
+        top: 40;
+    }
+    #row1 .desc,.desc1{
+        width: 50px;
+    }
+
+    /*Business*/
+    #business h2{
+        font-size: 25px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    /*Div-1*/
+    #offerings{
+        display: flex;
+    }
+
+    #offerings .div1{
+        margin-left: 20px;
+        width: 210px;
+        height: 300px;
+    }
+    #offerings .div1 .image-7{
+        width: 200px;
+    }
+    #offerings .div1 .yellow{
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+    #offerings .div1 p{
+        display: none;
+    }
+
+    /*Div-2*/
+    #offerings .div2{
+        margin-left: 20px;
+        width: 210px;
+        height: 300px;
+    }
+    #offerings .div2 .image-56{
+        width: 200px;
+        margin-top: 60px;
+    }
+    #offerings .div2 .green{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    #offerings .div2 p{
+        display: none;
+    }
+
+    /*Div-3*/
+    #offerings .div3{
+        margin-top: 550px;
+        margin-left: -440px;
+        width: 210px;
+        height: 300px;
+    }
+    #offerings .div3 .image-41{
+        width: 200px;
+    }
+    #offerings .div3 .orange{
+        font-size: 20px;
+        margin-top: 90px;
+        margin-left: 40px;
+    }
+    #offerings .div3 p{
+        display: none;
+    }
+    #row2{
+        display: flex;
+    }
+
+    /*Div-4*/
+    #row2 .div4{
+        margin-top:88px;
+        margin-left: 250px;
+        width: 210px;
+        height: 300px;
+    }
+    #row2 .div4 .image-5{
+        width: 200px;
+        margin-top: 10px;
+    }
+    #row2 .div4 .blue{
+        color:lightslategrey;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    #row2 .div4 p{
+        display: none;
+    }
+    /*Div-5*/
+    #row2 .div5{
+        margin-top:400px;
+        margin-left: -440px;
+        width: 210px;
+        height: 300px;
+    }
+    #row2 .div5 .image-100{
+        width: 200px;
+        margin-top: 10px;
+    }
+    #row2 .div5 .orange{
+        color:orange;
+        font-size: 18px;
+        margin-top: 70px;
+        margin-left: 10px;
+    }
+    #row2 .div5 p{
+        display: none;
+    }
+    
+    /*Div-6*/
+
+    #row2 .div6{
+        margin-top:400px;
+        margin-left: 20px;
+        width: 210px;
+        height: 300px;
+    }
+    #row2 .div6 .image-40{
+        width: 200px;
+        margin-top: 80px;
+    }
+    #row2 .div6 .green{
+        color:green;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    #row2 .div6 p{
+        display: none;
+    }
+
+    /*Row-3*/
+
+    /*Div-7*/
+    #row3 .div7{
+        margin-top:-20px;
+        margin-left:20px;
+        width: 210px;
+        height: 300px;
+    }
+    #row3 .div7 img{
+        width: 220px;
+        margin-top:60px;
+        margin-left: -10px;
+
+    }
+    #row3 .div7 p{
+        display: none;
+    }
+    #row3 .div7 .green{
+        font-size: 15px;
+    }
+    /*Div-8*/
+    #row3 .div8{
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 210px;
+        height: 300px;
+    }
+    #row3 .div8 .image102{
+        width: 220px;
+        margin-top:0px;
+        margin-left: -10px;
+
+    }
+    #row3 .div8 p{
+        display: none;
+    }
+    #row3 .div8 .blue{
+        margin-top: 100px;
+        font-size: 18px;
+    }
+    /*Div-10*/
+    #row4 .div10{
+        margin-top: -180px;
+        margin-left: 20px;
+        width: 210px;
+        height: 300px;
+    }
+
+    #row4 .div10 p{
+        display: none;
+    }
+
+    #row4 .div10 .image-58{
+        width: 220px;
+        margin-left: -10px;
+    }
+
+    #row4 .div10 .green{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    /*Div-11*/
+    #row4 .div11{
+        margin-top: -180px;
+        margin-left: 20px;
+        width: 210px;
+        height: 300px;
+    }
+
+    #row4 .div11 p{
+        display: none;
+    }
+
+    #row4 .div11 .image-59{
+        width: 220px;
+    }
+
+    #row4 .div11 .yellow{
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    /*Div-12*/
+    #row4 .div12{
+        margin-top: 150px;
+        margin-left: -440px;
+        width: 210px;
+        height: 300px;
+    }
+
+    #row4 .div12 p{
+        display: none;
+    }
+
+    #row4 .div12 .image-57{
+        width: 210px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    #row4 .div12 .orange{
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+/*Div-9*/
+    #row3 .div9{
+        margin-top: 620px;
+        margin-left: -200px;
+        width: 210px;
+        height: 300px;
+    }
+    #row3 .div9 img{
+        width: 200px;
+    }
+    #row3 .div9 h3{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    #row3 .w-button{
+        padding: 10px;
+        border-style: groove;
+        background-color: transparent;
+        color: whitesmoke;
+        margin-top: 0px;
+        font-size: 20px;
+        margin-left: 55px;
+        text-decoration: none;
+    }
+    #cap .one .p1{
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    #cap .image-6{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 110px;
+        margin-top: -65px;
+    }
+
+    #cap .one .p2{
+        font-size: 17px;
+        margin-left: 160px;
+        margin-top: -45px;
+    }
+
+    #cap .image-8{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 290px;
+        margin-top: -63px;
+    }
+    #cap .one .p3{
+        font-size: 17px;
+        margin-left: 333px;
+        margin-top: -45px;
+    }
+
+    #cap .one .p4{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    #cap .image-7{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 110px;
+        margin-top: -60px;
+    }
+    #cap .one .p5{
+        font-size: 16px;
+        margin-left: 155px;
+        margin-top: -45px;
+    }
+    #cap .image-9{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 226px;
+        margin-top: -60px;
+    }
+    #cap .one .p6{
+        font-size: 16px;
+        margin-left: 275px;
+        margin-top: -45px;
+    }
+    #cap .image-10{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 350px;
+        margin-top: -60px;
+    }
+    #cap .one .p7{
+        font-size: 16px;
+        margin-left: 395px;
+        margin-top: -45px;
+    }
+    #cap .image-11{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+    #cap .image-12{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 292px;
+        margin-top: -60px;
+    }
+    #capa .one .p8{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    #capa .image-13{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+    #capa .one .p9{
+        font-size: 16px;
+        margin-left: 150px;
+        margin-top: -45px;
+    }
+    #capa .image-14{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 240px;
+        margin-top: -60px;
+    }
+    #capa .one .p10{
+        font-size: 16px;
+        margin-left: 285px;
+        margin-top: -45px;
+    }
+    #capa .image-15{
+        width: 10px;
+        padding: 30px;
+        margin: 0px;
+        margin-left: 354px;
+        margin-top: -60px;
+    }
+    #capa .one .p11{
+        font-size: 16px;
+        margin-left: 395px;
+        margin-top: -45px;
+    }
+    #businesss{
+        margin-top: 20px;
+    }
+    #businesss h2{
+        font-size: 28px;
+        margin-top: 1px;
+    }
+    #comp {
+        margin-top: 100px;
+    }
+    #comp .fin  h3{
+        font-size: 10px;
+        margin-top: -80px;
+        margin-left: 100px;
+
+    }
+    #comp .fin .axis{
+        width: 140px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #comp .fin .standard{
+        width: 140px;
+    }
+    #comp .fin .max{
+        width: 140px;
+    }
+    #comp1{
+        margin-top: -160px;
+    }
+    #comp1 .fin2 .absa{
+        width: 140px;
+        margin-top: 0x;
+        margin-left: 10px;
+    }
+    #comp1 .fin2 .crayon{
+        width: 140px;
+    }
+    #comp1 .fin2 .ndb{
+        width: 140px;
+    }
+    #comp2 .fin3 .cons{
+        font-size: 13px;
+        margin-top: -40px;
+        margin-left: 60px;
+    }
+    #comp2 .fin3 .google{
+        width: 140px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #comp2 .fin3 .ajio{
+        width: 140px;
+    }
+    #comp2 .fin3 .swoo{
+        width: 140px;
+        margin-left: -10px;
+    }
+    #comp2 .fin3 .swiggy{
+        width: 140px;
+        margin-left: 10px;
+    }
+    #comp3{
+        margin-top: -50px;
+    }
+    #comp3 .fin4 h3{
+        font-size: 12px;
+        margin-top:90px;
+        margin-left: 60px;
+    }
+    #comp3 .fin4 .vill{
+        width: 140px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    #comp3 .fin4 .azim{
+        width: 140px;
+    }
+    #comp3 .fin4 .policy{
+        width: 140px;
+    }
+
+    #comp4{
+        margin-top: -160px;
+    }
+    #comp4 .fin5 .swasti{
+        width: 140px;
+        margin-top: 0x;
+        margin-left: 10px;
+    }
+    #comp4 .fin5 .khpt{
+        width: 140px;
+    }
+    #comp4 .fin5 .gram{
+        width: 140px;
+    }
+    
+    #comp5 .fin6 .cons{
+        font-size: 13px;
+        margin-top: -40px;
+        margin-left: 60px;
+    }
+    #comp5 .fin6 .manipal{
+        width: 140px;
+        margin-top: -90px;
+        margin-left: 10px;
+    }
+    #comp5 .fin6 .oxford{
+        width: 140px;
+    }
+    #comp5 .fin6 .bradio{
+        width: 140px;
+        margin-left: -10px;
+    }
+
+    #comp6{
+        margin-top: -130px;
+    }
+    #comp6 .fin7 h3{
+        font-size: 12px;
+        margin-top: 200px;
+        margin-left: 60px;
+    }
+    #comp6 .fin7 .star{
+        width: 140px;
+        margin-top: -90px;
+        margin-left: 10px;
+    }
+    #comp6 .fin7 .v-ch{
+        width: 140px;
+    }
+    #comp6 .fin7 .miss{
+        width: 140px;
+        margin-left: -10px;
+    }
+
+    #tele .fin8 .pon{
+        font-size: 13px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    #tele .fin8 .verizon{
+        width: 140px;
+        margin-top: -90px;
+        margin-left: 30px;
+    }
+    #tele .fin8 .globe{
+        width: 140px;
+    }
+    /*Footer*/
+    #rowf{
+        margin-left: -10px;
+    }
+    footer #rowf .container .desc20
+    {
+        color: white;
+        background-color: black;
+        height:50vh ;
+        width: 600px;   
+    }
+    footer .container .image-7{
+        text-align: center;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    footer .media1{
+        margin-left: -0px;
+    }
+    footer .media2{
+        margin-top: 5px;
+    }
+    #rowf .social-links,.media,.media1,.media2{
+        display: flex;
+        padding:10px;
+    }
+    footer .div1{
+        color:white;
+    }
+    /*Links*/
+    #rowf  .w-home{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 75px;
+        margin-left: -250px;
+        height: 0px;
+        display: flex;
+        color: white;
+        padding: 2rem;
+    }
+    
+    
+    #rowf .w-work{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 75px;
+        margin-left: -45px;
+        height: 50px;
+        display: flex;
+        padding: 2rem;
+    }
+    
+    #rowf  .w-service{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        height: 50px;
+        margin-top: 75px;
+        margin-left: -40px;
+        display: flex;
+        padding: 2rem;
+        color:deeppink;
+    }
+    
+    #rowf  .w-info{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 75px;
+        margin-left: -45px;
+        display: flex;
+        color: white;
+        padding: 2rem;
+    }
+    #rowf  .w-contact{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin-top: 75px;
+        margin-left: -45px;
+        display: flex;
+        color: white;
+        padding: 2rem;
+    }
+     
+}
